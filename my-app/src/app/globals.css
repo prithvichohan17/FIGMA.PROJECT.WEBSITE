@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero{
+  position: relative;
+  color: black;
+}
+
+.contatiner{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.hero--content{
+  padding: 48px 0;
+}
+
+.bg-img{
+  object-fit: cover;
+  z-index: -5;
+}
