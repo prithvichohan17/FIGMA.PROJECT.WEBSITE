@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Header() {
   return (
     <div>
-      <header className='bg-white'>
+      <header className='bg-white justify-center'>
         {/* Header Container */}
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           {/* Logo */}
