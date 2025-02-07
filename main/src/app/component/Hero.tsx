@@ -1,87 +1,37 @@
+'use client';
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/image';
 
-export default function Hero() {
+
+export default function NewCollectionBanner() {
   return (
-    <div>
-
-    <div className="bg-yellow-50  p-8 rounded-md  text-center">
-      {/* New Arrival Text */}
-      <p className=" text-sm font-semibold text-gray-500">
-        New Arrival
-      </p>
-
-      {/* Title */}
-      <h1 className="text-4xl font-bold text-yellow-800 mt-2 mb-4">
-        Discover Our <br />
-        <span className="text-yellow-800">New Collection</span>
-      </h1>
-
-      {/* Description */}
-      <p className="text-gray-600 mb-6">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-        tellus, luctus nec ullamcorper mattis.
-      </p>
-
-      {/* Button */}
-      <button className="bg-yellow-600 hover:bg-yellow-700 text-white font-semibold py-2 px-4 rounded-md">
-        BUY NOW
-      </button>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <Image src='/back.jpg'alt='back' width={2000}height={2000}></Image>
-      
-      <div>
-      <h1 className='text-center font-bold text-4xl text-black'>Browse The Range</h1>
-      <p className='text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Ut elit tellus, luctus nec ullamcorper mattis.</p>
-
-
-     <div className="w-[1200px] mx-auto mt-10 text-white text-center grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-     <Image src='/pic.png'alt='pic' width={800}height={800}/>
-     <Image src='/pic2.png'alt='pic2' width={800}height={800}/>
-     <Image src='/pic3.png'alt='pic3' width={800}height={800}/>
-     
-     <div>
-     
-     </div>
-
-     
-     </div>
-      </div>
-
-      </div>
-      
+  
+        <div className="relative w-full h-[400px] flex items-center justify-end
+         bg-gray-100">
+          <div className="absolute inset-0">
+            <Image 
+              src="/bank.png" 
+              alt="New Collection" 
+              width={900}
+              height={900}
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <div className="relative bg-[#FCEED4] p-8 max-w-lg rounded-sm shadow-lg text-center">
+            <p className="text-sm font-semibold text-gray-600">New Arrival</p>
+            <h2 className="text-2xl font-bold text-yellow-600">Discover Our New Collection</h2>
+            <p className="text-gray-600 mt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+            </p>
+            <button className="mt-4 bg-yellow-600 text-white px-6 py-3 rounded-md hover:bg-yellow-700 transition">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      );
+    }
     
     
-  )
-};
+
+  
+

@@ -20,7 +20,7 @@ export default function OurProducts() {
 
             </div>
             <div className="flex items-center justify-center mt-10">
-            <button className="bg-primary Border-1px bg-white line-clamp-2 text-yellow-600 npmcd rgba(184,142,42,4) px-[36px] py-[12px] font-semi bold text-[16px] w-fit ">
+            <button className="bg-primary Border-1px bg-yellow-500 line-clamp-2 text-white npmcd rgba(184,142,42,4) px-[36px] py-[12px] font-semi bold text-[16px] w-fit ">
                Show More
                </button>
             </div>

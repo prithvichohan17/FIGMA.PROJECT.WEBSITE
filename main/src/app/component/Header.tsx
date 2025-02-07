@@ -2,7 +2,6 @@ import React from 'react'
 import Image from 'next/image';
 
 
-
 export default function Header() {
   return (
     <div>
@@ -19,10 +18,10 @@ export default function Header() {
             {/* Navigation Links */}
 
             <nav className="flex space-x-6 gap-12">
-              <a className="gap-10  hover:text-blank-900 ">Home</a>
-              <a className=" gap-10 hover:text-blank-900 ">Shop</a>
-              <a className="hover:text-blank-900 ">Blog</a>
-              <a className="hover:text-blank-900">Contact</a>
+              <a className="mr-5 hover:text-gray-900 ">Home</a>
+              <a className="mr-5 hover:text-gray-900 ">Shop</a>
+              <a className="mr-5 hover:text-gray-900 ">Blog</a>
+              <a className="mr-5 hover:text-gray-900">Contact</a>
             </nav>
 
 
